@@ -1,6 +1,5 @@
 package model;
 
-
 public class FedEx_Company extends DeliveryCompany {
 	private int shipping_fee_express = 50;
 	private int shipping_fee_regular = 10;
