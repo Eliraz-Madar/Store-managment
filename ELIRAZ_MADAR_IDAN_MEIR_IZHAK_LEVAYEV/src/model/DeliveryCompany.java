@@ -1,6 +1,5 @@
 package model;
 
-
 // Abstract class
 public abstract class DeliveryCompany {
     private Person contactPerson;
