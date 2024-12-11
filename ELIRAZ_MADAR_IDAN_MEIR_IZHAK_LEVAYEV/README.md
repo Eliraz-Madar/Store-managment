@@ -1,52 +1,86 @@
-```markdown
-# Store-managment
+# Store Management
 
 ## Introduction
-Store-managment is a Java-based application designed to manage store operations efficiently. 
+Welcome to **Store Management**, a Java-based application designed to streamline store operations with efficiency and simplicity.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Installation Instructions](#installation-instructions)
+- [Usage Examples](#usage-examples)
+- [Screenshots](#screenshots)
+- [Contribution Guidelines](#contribution-guidelines)
+- [License](#license)
 
 ## Installation Instructions
-To set up the Store-managment application locally, follow these steps:
+To set up the Store Management application locally, follow these steps:
 
 1. **Clone the repository**:
-   ```sh
+   ```bash
    git clone https://github.com/Eliraz-Madar/Store-managment.git
    cd Store-managment
    ```
 
-2. **Install dependencies**:
-   Ensure you have Java installed. You may need additional dependencies listed in the `pom.xml` if using Maven.
+2. **Ensure dependencies are installed**:
+   - Confirm that Java is installed on your machine (Java 8 or later).
+   - If using Maven, install the dependencies listed in `pom.xml`.
 
 3. **Build the project**:
-   ```sh
+   ```bash
    javac -d bin src/*.java
    ```
 
 4. **Run the application**:
-   ```sh
+   ```bash
    java -cp bin Main
    ```
 
 ## Usage Examples
-Here are some examples of how to use the Store-managment application:
+Here are a few examples to get started with Store Management:
 
 1. **Add a new product**:
-   ```sh
+   ```bash
    java -cp bin Main add-product "Product Name" 100
    ```
 
 2. **List all products**:
-   ```sh
+   ```bash
    java -cp bin Main list-products
    ```
 
 3. **Update product price**:
-   ```sh
+   ```bash
    java -cp bin Main update-price "Product Name" 120
    ```
 
 ## Screenshots
-![Application Screenshot](path/to/screenshot1.png)
-![Application Screenshot](path/to/screenshot2.png)
+Below are some visuals of the application in action:
+
+- **Adding a Product**:
+  ![Add Product Screenshot](path/to/screenshot1.png)
+
+- **Listing Products**:
+  ![List Products Screenshot](path/to/screenshot2.png)
 
 ## Contribution Guidelines
-If you would like to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+We welcome contributions to improve Store Management! To contribute:
+
+1. **Fork this repository**.
+2. **Create a feature branch**:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. **Commit your changes**:
+   ```bash
+   git commit -m "Description of changes"
+   ```
+4. **Push to your branch**:
+   ```bash
+   git push origin feature-name
+   ```
+5. **Submit a pull request**.
+
+For major changes, please open an issue first to discuss your proposed updates.
+
+---
+We hope Store Management helps simplify your operations!
+
