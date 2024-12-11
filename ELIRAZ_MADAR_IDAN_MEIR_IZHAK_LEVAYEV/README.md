@@ -52,15 +52,6 @@ Here are a few examples to get started with Store Management:
    java -cp bin Main update-price "Product Name" 120
    ```
 
-## Screenshots
-Below are some visuals of the application in action:
-
-- **Adding a Product**:
-  ![Add Product Screenshot](path/to/screenshot1.png)
-
-- **Listing Products**:
-  ![List Products Screenshot](path/to/screenshot2.png)
-
 ## Contribution Guidelines
 We welcome contributions to improve Store Management! To contribute:
 
