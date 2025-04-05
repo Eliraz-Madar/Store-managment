@@ -25,31 +25,17 @@ To set up the Store Management application locally, follow these steps:
    - If using Maven, install the dependencies listed in `pom.xml`.
 
 3. **Build the project**:
+   -Go to
+   ```bash
+   cd Eliraz_Madar
+   ```
    ```bash
    javac -d bin src/*.java
    ```
 
-4. **Run the application**:
+5. **Run the application**:
    ```bash
-   java -cp bin Main
-   ```
-
-## Usage Examples
-Here are a few examples to get started with Store Management:
-
-1. **Add a new product**:
-   ```bash
-   java -cp bin Main add-product "Product Name" 100
-   ```
-
-2. **List all products**:
-   ```bash
-   java -cp bin Main list-products
-   ```
-
-3. **Update product price**:
-   ```bash
-   java -cp bin Main update-price "Product Name" 120
+   java -cp bin application.Main
    ```
 
 ## Contribution Guidelines
